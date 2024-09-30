@@ -171,7 +171,7 @@ while running:
 
     #Check for game over
     if player_lives == 0:
-       '''display_surface.blit(game_over_text, game_over_rect'''
+       display_surface.blit(game_over_text, game_over_rect)
        ''' Display the continue text like I did for game_over_text'''
        pygame.display.update()
 
